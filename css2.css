@@ -103,7 +103,7 @@ html{
 }
 @media screen and (max-width: 768px) {
   .nav-menu {
-    background: #fff;
+    background: #000;
     flex-direction: column;
     justify-content: center;
     opacity: 0;
@@ -114,6 +114,7 @@ html{
     left: 0;
     transform: translatey(-100%);
     text-align: center;
+	z-index:1;
   }
   .menu-active .nav-menu {
     transform: translatey(0%);
