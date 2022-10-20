@@ -100,11 +100,10 @@ html{
   margin: 0;
   padding: 0;
   transition: all 0.25s ease-in;
-  
 }
 @media screen and (max-width: 768px) {
   .nav-menu {
-    background: #000;
+    background: #fff;
     flex-direction: column;
     justify-content: center;
     opacity: 0;
@@ -115,7 +114,6 @@ html{
     left: 0;
     transform: translatey(-100%);
     text-align: center;
-	z-index:1;
   }
   .menu-active .nav-menu {
     transform: translatey(0%);
@@ -368,7 +366,6 @@ ul li:hover .slider p {
 #About p{
   background: #000;
   margin-right: 20px;
-  width:75%;
 }
 
 
@@ -513,9 +510,5 @@ aside {
   left: 10%;
   font-size: 20px;
   width: 50%;
-}
-
-.rrt{
-	width:80%;
 }
 }
